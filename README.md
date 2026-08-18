@@ -1,14 +1,14 @@
-# Forger — Mini CI/CD Build Engine
+# Forger  Mini CI/CD Build Engine
 
 A lightweight, local build-orchestration system written in Go. Forger executes user-defined build steps as a dependency-aware DAG with content-addressable caching and parallel execution.
 
 ## Features
 
-- **YAML config** — declare steps with `name`, `run`, `needs`, `inputs`, `outputs`, `env`, `retries`, and `timeout`
-- **DAG scheduling** — topological sort, cycle detection, parallel worker pool
-- **Content-addressable cache** — deterministic SHA-256 build hashes; skip unchanged jobs
-- **Failure handling** — downstream skip on failure, optional `--fail-fast`, per-job retries with backoff
-- **CLI** — human-readable tables or `--output json` for CI automation
+- **YAML config** - declare steps with `name`, `run`, `needs`, `inputs`, `outputs`, `env`, `retries`, and `timeout`
+- **DAG scheduling** - topological sort, cycle detection, parallel worker pool
+- **Content-addressable cache** - deterministic SHA-256 build hashes; skip unchanged jobs
+- **Failure handling** - downstream skip on failure, optional `--fail-fast`, per-job retries with backoff
+- **CLI** - human-readable tables or `--output json` for CI automation
 
 ## Install
 
