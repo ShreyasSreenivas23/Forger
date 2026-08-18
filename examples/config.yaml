@@ -1,0 +1,33 @@
+steps:
+  - name: install
+    run: echo installing dependencies && mkdir .venv 2>nul & echo deps > .venv\deps.txt
+    inputs:
+      - requirements.txt
+    outputs:
+      - .venv/
+
+  - name: test
+    run: echo running tests && echo tests > test-results.xml
+    needs: [install]
+    inputs:
+      - src/**/*.go
+      - tests/**/*.go
+    outputs:
+      - test-results.xml
+
+  - name: build
+    run: echo building && mkdir dist 2>nul & echo binary > dist\app
+    needs: [install, test]
+    inputs:
+      - src/**/*.go
+    outputs:
+      - dist/
+    env:
+      BUILD_ENV: production
+    retries: 1
+    timeout: 300
+
+  - name: lint
+    run: echo linting
+    inputs:
+      - src/**/*.go

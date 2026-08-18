@@ -1,0 +1,8 @@
+=== Job: test ===
+Command: echo running tests && echo tests > test-results.xml
+Start: 2026-08-17T17:08:33+05:30
+Duration: 21.9833ms
+Exit Code: 0
+--- stdout ---
+running tests 
+--- stderr ---

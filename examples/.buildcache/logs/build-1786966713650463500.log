@@ -1,0 +1,8 @@
+=== Job: build ===
+Command: echo building && mkdir dist 2>nul & echo binary > dist\app
+Start: 2026-08-17T17:08:33+05:30
+Duration: 20.9874ms
+Exit Code: 0
+--- stdout ---
+building 
+--- stderr ---

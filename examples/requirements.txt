@@ -1,0 +1,2 @@
+# Example dependencies
+forger-buildengine==1.0.0

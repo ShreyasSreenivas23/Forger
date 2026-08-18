@@ -1,0 +1,8 @@
+=== Job: lint ===
+Command: echo linting
+Start: 2026-08-17T17:08:33+05:30
+Duration: 24.2628ms
+Exit Code: 0
+--- stdout ---
+linting
+--- stderr ---

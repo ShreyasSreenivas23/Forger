@@ -1,0 +1,8 @@
+=== Job: install ===
+Command: echo installing dependencies && mkdir .venv 2>nul & echo deps > .venv\deps.txt
+Start: 2026-08-17T17:08:33+05:30
+Duration: 23.2071ms
+Exit Code: 0
+--- stdout ---
+installing dependencies 
+--- stderr ---

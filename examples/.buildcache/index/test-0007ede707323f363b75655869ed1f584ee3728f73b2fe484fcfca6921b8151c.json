@@ -1,0 +1,10 @@
+{
+  "job_name": "test",
+  "build_hash": "0007ede707323f363b75655869ed1f584ee3728f73b2fe484fcfca6921b8151c",
+  "outputs": [
+    "test-results.xml"
+  ],
+  "object_path": "objects\\00\\0007ede707323f363b75655869ed1f584ee3728f73b2fe484fcfca6921b8151c",
+  "created_at": "2026-08-17T11:38:33.7059826Z",
+  "complete": true
+}

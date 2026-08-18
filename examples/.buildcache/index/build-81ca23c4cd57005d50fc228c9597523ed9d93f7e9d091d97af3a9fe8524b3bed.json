@@ -1,0 +1,10 @@
+{
+  "job_name": "build",
+  "build_hash": "81ca23c4cd57005d50fc228c9597523ed9d93f7e9d091d97af3a9fe8524b3bed",
+  "outputs": [
+    "dist/"
+  ],
+  "object_path": "objects\\81\\81ca23c4cd57005d50fc228c9597523ed9d93f7e9d091d97af3a9fe8524b3bed",
+  "created_at": "2026-08-17T11:38:33.7362237Z",
+  "complete": true
+}
